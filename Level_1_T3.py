@@ -3,9 +3,8 @@ import re
 def is_valid_email(email):
     """
     Validates an email address.
-    :param email: The email address to validate.
-    :return: True if the email address is valid, False otherwise.
-    This function validates an email address by checking if it matches a regular expression pattern.
+    This function validates an email address by checking if 
+    it matches a regular expression pattern.
     """
     # Email pattern for basic validation
     pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$' #(string1)@(string2).(2+characters)
