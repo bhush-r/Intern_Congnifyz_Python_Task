@@ -14,7 +14,7 @@ def is_valid_email(email):
     The regular expression pattern matches any string that starts with a word character or a hyphen,
     followed by zero or more word characters, hyphens, or periods, followed by an @ symbol,
     followed by zero or more word characters, hyphens, or periods, followed by a domain name,
-    followed by a top-level domain. The top-level domain must be two or more characters long and consist of only letters or numbers.
+    followed by a top-level domain. consist of only letters or numbers.
     """
 
     # Check if the email matches the pattern
